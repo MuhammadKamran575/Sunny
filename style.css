@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto";
+    font-weight: 500;
+}
+
+.main_section{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.all-goods{
+    font-size: 52px;
+}
+.users_status{
+    font-size: 32px;
+    margin-top: 80px;
+}
+.user_card{
+    height: auto;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-top: 32px;
+    padding-bottom: 20px;
+}
+
+.all_active_cards{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.user_card{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.user_name{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+
+}
+.user_status{
+    height: 29px;
+    width: 85px;
+    font-size: 16px;
+    color: #338600;
+    background: rgba(51, 134, 0, 0.2);
+    padding: 5px 20px;
+    border-radius: 34px;
+    margin: 0 auto;
+
+}
+.change_user_status{
+    height: 34px;
+    width: 147px;
+    border-radius: 4px;
+    background: #E84804;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: transform 0.4s ease;
+    }
+}
+
+.pink{
+    background-color: rgba(232, 72, 4, 0.2);
+    color: rgba(232, 72, 4, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.green{
+    background: #338600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all_inactive_cards{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
